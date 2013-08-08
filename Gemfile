@@ -32,6 +32,22 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem "rspec-rails", :group => [:development, :test]
+gem "database_cleaner",  :group => :test
+gem "email_spec", :group => :test
+gem "cucumber-rails", :group => :test, :require => false
+gem "launchy", :group => :test
+gem "capybara",  :group => :test
+gem "factory_girl_rails", :group => [:development, :test]
+gem "devise"
+gem "quiet_assets", :group => :development
+gem "figaro", ">= 0.5.3"
+gem "better_errors", :group => :development
+gem "binding_of_caller", :group => :development
+gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'protected_attributes'
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
