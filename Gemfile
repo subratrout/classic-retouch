@@ -47,6 +47,7 @@ gem "binding_of_caller", :group => :development
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'protected_attributes'
 gem 'simple_form'
+gem 'compass-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
